@@ -1,0 +1,457 @@
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-PGZH8HT');</script>
+
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css" />
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <title>Personal Portfolio</title>
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126939217-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-126939217-2');
+  </script>
+  <meta name="google-site-verification" content="_qxK8tePiU2fhnwlwnJ7pkDFnj1k2EiKq_cYGy1Cb84" />
+</head>
+
+<body>
+  <nav class="hide-on-small-only">
+    <ul class="side-nav fixed section table-of-contents">
+
+      <li class="logo">
+        <a id="logo-container" aria-label="Navigate to the beginning of the page" href="#intro"
+          class="brand-logo grey-blue-text">
+          <img src="assets/img/logo.jpg" class="circle img-responsive profile-pic" alt="avatar">
+        </a>
+      </li>
+
+      <li class="bold">
+        <a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text"><i
+            class="mdi-social-person small"></i><span>About</span></a>
+      </li>
+
+      <li class="bold">
+        <a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark teal-text"><i
+            class="mdi-action-assessment small"></i><span>Skills</span></a>
+      </li>
+
+      <li class="bold">
+        <a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark teal-text"><i
+            class="mdi-social-school small"></i><span>Education</span></a>
+      </li>
+
+      <li class="bold">
+        <a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark teal-text"><i
+            class="mdi-av-my-library-books small"></i><span>Projects</span></a>
+      </li>
+
+      <li class="bold">
+        <a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark teal-text"><i
+            class="mdi-content-mail small"></i><span>Contact</span></a>
+      </li>
+
+      <li class="bold">
+        <a aria-label="Open Varad's resume in a new tab" href="./assets/resume/Muskan_Gupta.pdf" target="_blank"
+          class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span>Resume</span></a>
+      </li>
+    </ul>
+  </nav>
+  <nav class="hide-on-large only trigger z-depth-1">
+    <a aria-label="Toggle visibility of the mobile navbar" href="#" data-activates="slide-out"
+      class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+    <div class="name-title">
+      <a id="name" aria-label="Navigate to the beginning of the page" href="#" class="teal-text">Muskan Gupta
+
+      </a><span class="black-text">Web Developer</span>
+    </div>
+  </nav>
+
+  <nav class="hide-on-large only">
+    <ul id="slide-out" class="side-nav">
+      <li class="bold">
+        <a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text"><i
+            class="mdi-social-person small"></i><span>About</span></a>
+      </li>
+
+      <li class="bold">
+        <a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark teal-text"><i
+            class="mdi-action-assessment small"></i><span>Skills</span></a>
+      </li>
+
+      <li class="bold">
+        <a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark teal-text"><i
+            class="mdi-social-school small"></i><span>Education</span></a>
+      </li>
+
+      <li class="bold">
+        <a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark teal-text"><i
+            class="mdi-av-my-library-books small"></i><span>Projects</span></a>
+      </li>
+
+      <li class="bold">
+        <a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark teal-text"><i
+            class="mdi-content-mail small"></i><span>Contact</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Open Varad's Resume in a new tab" href="./assets/resume/Muskan.pdf" target="_blank"
+          class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span>Resume</span></a>
+      </li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="intro" class="section scrollspy full-height">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="col-md-9">
+          <div class="content section-padding valign" style="margin-left: 10%; margin-top: 50px;">
+            <div class="caption">
+              <h2>Hi, I'm <span class="teal">Muskan Gupta</span></h2>
+              <h5 style="color:#fff">A <span class="typing" style="font-weight: 300; color:#004d40"></span></h5>
+              <h5>Self-driven, quick starter, passionate programmer with a curious mind who enjoys solving a complex and
+                challenging real-world problems.</h5>
+            </div>
+            <div class="social">
+              <a href="https://www.linkedin.com/in/muskan-gupta-139b32249/" target="_blank">
+                <button class="icon-btn linkedin">
+                  <i class="fa fa-linkedin"></i>
+                </button>
+              </a>
+              <a href="https://github.com/Muskan6803" target="_blank">
+                <button class="icon-btn github">
+                  <i class="fa fa-github"></i>
+                </button>
+              </a>
+            </div>
+            <div class='buttons'>
+              <a href="#about" class="readme">Read More</a>
+              <a href="#contact" class="contactme">Contact Me</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section scrollspy">
+      <h3 class="page-title white-text teal">About</h3>
+      <div class="container flow-text">
+        <p>
+          Full-Stack Developer with hands-on experience in building scalable web applications using the MERN Stack
+          (MongoDB, Express.js, React, Node.js). Skilled in frontend and backend development, including UI/UX design,
+          responsive interfaces, and FastAPI integration. Proficient in JavaScript, Git/GitHub, and PostgreSQL, with
+          strong
+          knowledge of version control.Committed to optimizing application performance, ensuring code quality, and
+          adopting
+          best practices to support business growth.
+
+        </p>
+        <p>
+        <ul>
+          <li><b>Languages:</b> Python, SQL, JavaScript, HTML, CSS</li>
+          <li><b>Technologies:</b> React.js, Node.js, Express.js, FastAPI, TailwindCSS, MongoDB, PostgreSQL</li>
+          <li><b>Developer Tools:</b> Git, Visual Studio, Figma, Bootstrap</li>
+        </ul>
+
+        </p>
+        <p>
+          Looking for an opportunity to work in a challenging position combining my skills in Web Development,
+          which provides professional development, interesting experiences and personal growth.
+        </p>
+      </div>
+    </section>
+
+    <section id="skills" class="section scrollspy">
+      <h3 class="page-title white-text teal">Skills</h3>
+      <div class="container">
+        <div class="card">
+          <div class="card-content">
+            <h4 class="brown-text light">Languages</h4>
+            <div class="row text-center">
+              <div class="col s4 m2">
+                <img alt="" src="assets/img/python.png" class="responsive-img" />Python
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="assets/img/html.png" class="responsive-img" />HTML5
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="assets/img/css.png" class="responsive-img" />CSS
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="assets/img/javascript.png" class="responsive-img" />JavaScript
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="assets/img/SQL.png" class="responsive-img" />SQL
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-content">
+            <h4 class="brown-text light">Technologies</h4>
+            <div class="row text-center" style="display: flex; justify-content: flex-column;">
+              <div class="col s4 m2">
+                <img alt="" src="assets/img/reactjs.png" class="responsive-img" />React.js
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="assets/img/nodejs.png" class="responsive-img" />Node.js
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="assets/img/expressjs.png" class="responsive-img" />Express.js
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="assets/img/mongodb.png" class="responsive-img" />MongoDB
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="assets/img/postgresql-logo.png" class="responsive-img" />PostgreSQL
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="assets/img/fastapi.png" class="responsive-img" />FastAPI
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="assets/img/tailwindcss.png" class="responsive-img" />TailwindCSS
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="card">
+          <div class="card-content">
+            <h4 class="brown-text light">Other</h4>
+            <div class="row text-center">
+              <div class="col s4 m2">
+                <img alt="" src="assets/img/git.png" class="responsive-img" />Git
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="assets/img/figma.jpg" class="responsive-img" />Figma
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="assets/img/visual studio.jpg" class="responsive-img" />Visual Studio
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="assets/img/bootstrap.jpeg" class="responsive-img" />Bootstrap
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="section scrollspy">
+      <h3 class="page-title white-text teal">Education</h3>
+      <div class="container">
+        <div class="row">
+          <div class="col m6 l6">
+            <div class="card">
+              <div class="card-content">
+                <p class="brown-text">2021- 2025</p>
+                <p>
+                  <span class="card-title"><a href="https://www.rkgitm.ac.in/" target="_blank"
+                      class="teal-text hoverline">R.K.G. Institute of Technology and Management</a></span>
+                </p>
+                <p class="brown-text">Ghaziabad, Uttar Pradesh</p>
+                <p>
+                  <b>Degree: </b>Bachelor of Technology
+                  <br>
+                  <b>GPA: </b>7.4/10
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m6 l6">
+            <div class="card">
+              <div class="card-content">
+                <p class="brown-text">2020-2021</p>
+                <p>
+                  <span class="card-title"><a href="https://omniinternationalschool.com/" target="_blank"
+                      class="teal-text hoverline">Omni International School</a></span>
+                </p>
+                <p class="brown-text">Basti, Uttar Pradesh</p>
+                <p>
+                  <b>Class 12</b>
+                  <br>
+                  <b>Percentage: </b>85.4
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m6 l6">
+            <div class="card">
+              <div class="card-content">
+                <p class="brown-text">2018-2019</p>
+                <p>
+                  <span class="card-title"><a href="https://omniinternationalschool.com/" target="_blank"
+                      class="teal-text hoverline">Omni International School</a></span>
+                </p>
+                <p class="brown-text">Basti, Uttar Pradesh</p>
+                <p>
+                  <b>Class 10</b>
+                  <br>
+                  <b>Percentage: </b>77.6
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section scrollspy">
+      <h3 class="page-title white-text teal">Projects</h3>
+      <div class="container">
+        <div class="row">
+
+          <div class="col s12 m6 l4">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="music streaming app" src="assets/img/editor.png" style="height: 100%; width: 100%"
+                  class="activator" />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator teal-text hoverline">Resume Editor<i
+                    class="mdi-navigation-more-vert right"></i></span>
+                <p>Resume Editor web app based on React.js</p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text"><small>Accomplishments</small><i
+                    class="mdi-navigation-close right"></i></span>
+                <ul>
+                  <li><b>Tools:</b>React.js, ReactQuill, JavaScript, HTML/CSS, FastAPI, GroqAI, Axios</li>
+                  <li><b>Role and Responsibilities:</b> Worked as Team Leader and Coder in Team</li>
+                  <li><b>Team Size:</b> 1 Person</li>
+                  <li><b>Description:</b>Developed a full-stack Resume Editor web app using React.js, ReactQuill, and
+                    CSS for seamless and dynamic UI/UX. ∗ Integrated FastAPI as the backend to handle API requests for
+                    saving and enhancing resume content..</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m6 l4">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="music streaming app" src="assets/img/flower.jpg" style="height: 100%; width: 100%"
+                  class="activator" />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator teal-text hoverline">Flower Website<i
+                    class="mdi-navigation-more-vert right"></i></span>
+                <p>Flower web app based on JavaScript</p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text"><small>Accomplishments</small><i
+                    class="mdi-navigation-close right"></i></span>
+                <ul>
+                  <li><b>Tools:</b>HTML, CSS, Bootstrap, JavaScript</li>
+                  <li><b>Role and Responsibilities:</b>Worked on Designing Part and coder of some module in Team</li>
+                  <li><b>Team Size:</b> 3 Persons</li>
+                  <li><b>Description:</b>It’s a digital garden brimming with beauty, knowledge, and inspiration. This
+                    website offers a canvas to share your love for all things floral with the world.
+                    From this website you can buy your favourite flowers for you and you’re loved
+                    ones.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m6 l4">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="music streaming app" src="assets/img/school.jpeg" style="height: 100%; width: 100%"
+                  class="activator" />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator teal-text hoverline">School Website<i
+                    class="mdi-navigation-more-vert right"></i></span>
+                <p>Bill Management System web app based on HTML</p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text"><small>Accomplishments</small><i
+                    class="mdi-navigation-close right"></i></span>
+                <ul>
+                  <li><b>Tools:</b>HTML, Bootstrap</li>
+                  <li><b>Role and Responsibilities:</b> Worked as Team Leader and Coder in Team</li>
+                  <li><b>Team Size:</b> 1 Persons</li>
+                  <li><b>Description:</b>School Wbsite which is totally based on school infrastructure, faculty,
+                    academics etc. These type of website shows all about of school there academics, staff and many more.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section scrollspy full-height">
+      <h3 class="page-title white-text teal">Contact</h3>
+      <div class="container">
+        <p>
+          <a aria-label="Call Varad" data-position="top" data-tooltip="Call Varad"
+            class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i class="fa fa-phone"></i><a
+              aria-label="Call Varad">+91 8471033009</a></a>
+        </p>
+        <p>
+          <a aria-label="Email Varad" href="mailto:vbhogayata@gmail.com" target="_blank" data-position="top"
+            data-tooltip="Email Varad" class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+              class="fa fa-envelope"></i><a aria-label="Email Varad" href="muskan.gupta.mg2206@gmail.com"
+              class="hoverline">muskan.gupta.mg2206@gmail.com</a></a>
+        </p>
+        <p>
+          <a aria-label="View Varad on GitHub" href="http://github.com/varadbhogayata" target="_blank"
+            data-position="top" data-tooltip="View Varad on GitHub"
+            class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i class="fa fa-github"></i><a
+              aria-label="Varad on Github" href="https://github.com/Muskan6803" class="hoverline"
+              target="_blank">Muskan6803</a></a>
+        </p>
+        <p>
+          <a aria-label="View Varad on LinkedIn" href="http://linkedin.com/in/varadbhogayata" target="_blank"
+            data-position="top" data-tooltip="View Varad on LinkedIn"
+            class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+              class="fa fa-linkedin"></i><a aria-label="Varad on LinkedIn"
+              href="https://www.linkedin.com/in/muskan-gupta-139b32249/" class="hoverline" target="_blank">Muskan
+              Gupta</a></a>
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script type="text/javascript">
+    var typed = new Typed('.typing', {
+      strings: ["Pythonist", "Developer", "Fast Learner"],
+      loop: true,
+      typeSpeed: 80,
+      backSpeed: 40
+    });
+  </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/js/materialize.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $(".scrollspy").scrollSpy()
+      $(".button-collapse").sideNav({
+        menuWidth: 190,
+        edge: "left",
+        closeOnClick: true
+      })
+    })
+  </script>
+</body>
+
+</html>
